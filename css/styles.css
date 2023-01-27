@@ -239,18 +239,18 @@ footer {
 .card-set{
   padding-top: 32px;
   padding-bottom: 32px;
-  text-align: left;
- 
-}
+  padding-left: 16px;
+
+  
+ }
 
 .filters-btns-list{
-  margin: 0 auto;
-  list-style: none;
-  padding-bottom: 72px;
+   list-style: none;
+  margin-bottom: 72px;
   padding-left: 0;
-  width: 583px;
   gap: 24px;
   display: flex;
+  justify-content: center;
 }
 
 
@@ -286,7 +286,14 @@ border-radius: 0px 0px 4px 4px;
   margin: 0 auto;
   display: flex;
   gap: 48px 24px;
+ 
 }
 .portfolio-item{
 border: 1px solid var(--accent-bg-color);
+width: 360px;
+/* flex-basis: calc((100%-2*24px) / 3); */
+
+}
+.img-set{
+   width: 264px; 
 }
